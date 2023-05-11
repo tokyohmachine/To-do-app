@@ -1,0 +1,138 @@
+/* Global Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+    background-color: #f8f7ff;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: #fefee3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  #header {
+    background: linear-gradient(#4cc9f0, #4361ee);
+    color: #fff;
+    padding: 1.25rem;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: bold;
+    
+  }
+  
+  .tagline {
+    margin-top: 0.625rem;
+    font-size: 1.125rem;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+  .input-group {
+    margin-top: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .btn {
+    padding: 0.75rem;
+  }
+
+
+  /* Container Styles */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.25rem;
+  }
+  
+  /* To Do Section Styles */
+  .week {
+    margin-top: 2.5rem;
+    
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    min-height: 200px;
+  }
+  
+    
+  .secondary-background {
+    background-color: #e6e8e6;
+  }
+
+  .day, .task {
+    flex-basis: 25%;
+    padding: 0.625rem;
+    text-align: center;
+  }
+
+  .square {
+    width: 125px;
+    height: 125px;
+    padding: 0.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .day.square {
+    background: linear-gradient(#4cc9f0, #4361ee);;
+    border: 1px solid white;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .task.square {
+    background: linear-gradient(#c77dff, #9d4edd);
+    border: 1px solid white;
+  }
+
+  .task p {
+    color: #ffecd1;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .day h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffecd1;
+  }
+  
+  /* Reminders Section Styles */
+  .reminders {
+    margin-top: 2.5rem;
+    background: #e0aaff;
+    height: 200px;
+    border-radius: 0.3125rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: linear-gradient(#4cc9f0, #4361ee);
+    color: #fff;
+    padding: 0.625rem;
+    text-align: center;
+  }
+  
+
+  @media only screen and (max-width: 798px) {
+    h1 {
+      font-size: 1.875rem;
+    }
+    .day h3 {
+      font-size: 1.25rem;
+    }
+    p {
+      font-size: 0.9375rem;
+    }
+    
+  }
